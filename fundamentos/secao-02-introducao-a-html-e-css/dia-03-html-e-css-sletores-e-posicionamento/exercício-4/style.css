@@ -1,0 +1,40 @@
+div:hover {
+    border: 6px solid black;
+}
+
+div:nth-of-type(1) h3{
+    background-color: rgb(255, 0, 0);
+    color: azure;
+    font-size: small;
+}
+
+div:nth-of-type(2) h3 {
+    background-color: rgb(6, 65, 0);
+    color: rgb(222, 255, 104);
+    font-family: sans-serif;
+}
+
+div:nth-of-type(3) h3 {
+    background-color: rgb(255, 243, 75);
+    color: blue;
+    height:3em;
+    font-stretch: expanded;
+}
+
+div:nth-of-type(4) h3 {
+    background-color: rgb(94, 94, 94);
+    color: blanchedalmond;
+    font-family: monospace
+
+}
+
+div:nth-of-type(5) h3 {
+    background-color: rgb(126, 243, 252);
+    color: blueviolet;
+    font-style: italic;
+}
+
+div:nth-child(odd) h3 {
+    font-style: italic;
+}
+
