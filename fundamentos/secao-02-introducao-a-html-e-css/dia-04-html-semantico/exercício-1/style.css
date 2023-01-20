@@ -23,9 +23,6 @@ h1 {
     text-align: center;
     width: 200px;
     display: inline-block;
-    border-left: 200px;
-
-    
   }
 
   .third {
@@ -35,4 +32,13 @@ h1 {
     text-align: center;
     width: 200px;
     display: inline-block;
+  }
+
+  .rewards {
+    text-align: center;
+
+  }
+
+  .rewards ul li {
+    display: inline;
   }
