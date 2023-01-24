@@ -46,5 +46,22 @@ else {
     console.log('Finalmente, o descanso merecido!')
 }*/
 
+let statusPessoaAprovada = 'lista';
 
+switch (statusPessoaAprovada) {
+    case 'aprovada': 
+        console.log('Parabéns pela aprovação!');
+        break;
 
+    case 'reprovada':
+        console.log('Infelizmente não deu!');
+        break;
+
+    case 'lista':
+        console.log('Voce está na lista de espera!');
+        break;
+
+    default:
+        console.log('Informação incorreta!');
+        break;
+}
