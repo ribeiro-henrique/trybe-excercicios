@@ -32,7 +32,7 @@ for (let index = 0; index < numbers.length; index += 1) {
 
 console.log(result);*/
 
-let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+//let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 
 /*let parcial = 0; //tive que definir uma nova var
 
@@ -58,3 +58,38 @@ for (let index = 0; index < numbers.length; index += 1) {
 console.log(maiorValor);*/
 
 
+//let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+
+/*let odd = 0; //declarei a variável impar
+
+for (let index = 0; index < numbers.length; index += 1) {
+    if (numbers[index] % 2 != 0) { //aqui eu só defini o que é um num impar
+        odd += 1; //sempre que encontrar um impar, meu odd(zero) conta mais 1
+    }
+}
+
+if (odd == 0) {
+    console.log('Nenhum num par encontrado!')
+} else {
+    console.log(odd);
+}*/
+
+
+/*let menor = numbers[0]; //primeiro item do array, 5 no caso
+
+for (index = 1; index < numbers.length; index +=1) { //meu laço começa no 2 item, pq o primeiro ja é meu valor
+    if (numbers[index] < menor) { //se meu item no array for menor do que 5, ele substitui o valor
+        menor = numbers[index]
+    }
+}
+
+console.log(menor);*/
+
+
+let numbers = [];
+
+for (index = 0; index <= 25; index +=1) {
+    numbers.push(index);
+} for (index = 0; index < 25; index += 1) {
+    console.log(numbers[index] / 2)
+}
