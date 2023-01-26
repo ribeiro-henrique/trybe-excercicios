@@ -21,7 +21,7 @@ console.log(resultado);*/
 let word = 'tryber';
 let newWord = '';
 
-for (index = word.length; index > word.length - 1; index -= 1) {
+for (index = word.length; index > word.length; index -= 1) {
     newWord = console.log(word[index]);
     //newWord = word[index];
 }
