@@ -1,8 +1,14 @@
-let a = "Serei a melhor pessoa dev";
-let b = "Esse é meu jeito dev de ser!";
-let num = 2;
-let strings = [a, b];
 
-console.log((typeof strings.length) == (typeof num));
-    
 
+const substituaX = (nome) => `Tryber ${nome} aqui!`
+
+console.log(substituaX('Henrique'))
+
+const minhasSkilss = (substituaX) => {
+    const skills = ['JavaScript', 'HTML', 'css'];
+
+    let hax = `Eu sou o ${substituaX} e minhas três principais habilidades são:
+    ${skills}.`
+}
+
+console.log(minhasSkilss(substituaX('Henrique')));
