@@ -53,3 +53,10 @@ for (let key of arrList) {
     myLi.innerHTML = key
     myUlList.appendChild(myLi)
 };
+
+//add 3 h3 as a main child
+
+for (let index = 1; index <= 3; index += 1) {
+    const hh3 = document.createElement('h3')
+    mainMain.appendChild(hh3);
+}
